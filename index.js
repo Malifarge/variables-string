@@ -23,3 +23,10 @@ console.log(sentence2.length);
 let food = "croissant is meh" 
 food = food.replace("meh","so good")
 console.log(food);
+
+// 06 - Up and Down
+
+const basic = "This is Cool"
+const basicUp = basic.toUpperCase()
+const basicDown = basic.toLowerCase()
+console.log(basic,basicUp,basicDown);
