@@ -90,3 +90,11 @@ console.log(str.slice(-13, -10));
 
 let changed = "bonjour"
 console.log(changed.replaceAll('o','a'));
+
+
+const demoPadStart = '30515265554975215'
+const demoMaskedNumber = demoPadStart.slice(-4);
+console.log(demoMaskedNumber.padStart(demoPadStart.length,'0'));
+
+const testPadEnd = '50'
+console.log(testPadEnd.padEnd(4,'m'))
