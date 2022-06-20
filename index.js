@@ -10,8 +10,8 @@ console.log(sentence);
 
 // 03 - Concaténation
 
-const name = "Thomas"
-console.log(`Nice to meet you ${name}`);
+const firstName = "Thomas"
+console.log(`Nice to meet you ${firstName}`);
 
 // 04 - String Length
 
@@ -20,9 +20,8 @@ console.log(sentence2.length);
 
 // 05 - Replace
 
-let food = "croissant is meh" 
-food = food.replace("meh","so good")
-console.log(food);
+const food = "croissant is meh" 
+console.log(food.replace("meh","so good"));
 
 // 06 - Up and Down
 
@@ -39,7 +38,7 @@ console.log(basic,basicUp,basicDown);
 
 //  08 - Template
 
-const age = "25"
+const age = 25
 const template = `I'm ${age} years old`
 console.log(template);
 
