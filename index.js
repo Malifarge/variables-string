@@ -36,3 +36,9 @@ console.log(basic,basicUp,basicDown);
  const word = "banana"
  const letter = word.split("")
  console.log(letter);
+
+//  08 - Template
+
+const age = "25"
+const template = `I'm ${age} years old`
+console.log(template);
