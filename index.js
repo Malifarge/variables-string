@@ -30,3 +30,9 @@ const basic = "This is Cool"
 const basicUp = basic.toUpperCase()
 const basicDown = basic.toLowerCase()
 console.log(basic,basicUp,basicDown);
+
+// 07 - Split
+
+ const word = "banana"
+ const letter = word.split("")
+ console.log(letter);
