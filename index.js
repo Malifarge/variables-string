@@ -7,3 +7,8 @@ console.log("Hello World !")
 
 const sentence = "my name is Thomas"
 console.log(sentence);
+
+// 03 - Concaténation
+
+const name = "Thomas"
+console.log(`Nice to meet you ${name}`);
