@@ -61,3 +61,32 @@ console.log(eval(s1));
 console.log(eval(s2));  
 
 console.log(eval(s2.valueOf()));
+
+const sentence3 = 'The quick brown fox jumps over the lazy dog.';
+
+const word2 = 'over';
+
+const word3 = 'wolf'
+
+console.log(`The word "${word2}" ${sentence3.includes(word2) ? 'is' : 'is not'} in the sentence`);
+console.log(`The word "${word3}" ${sentence3.includes(word3) ? 'is' : 'is not'} in the sentence`);
+
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+console.log(str.slice(31));
+// expected output: "the lazy dog."
+
+console.log(str.slice(4, 19));
+// expected output: "quick brown fox"
+
+console.log(str.slice(-4));
+// expected output: "dog."
+
+console.log(str.slice(-9, -5));
+// expected output: "lazy"
+
+console.log(str.slice(-13, -10));
+// personal test
+
+let changed = "bonjour"
+console.log(changed.replaceAll('o','a'));
