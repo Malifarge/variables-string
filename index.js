@@ -42,3 +42,22 @@ console.log(basic,basicUp,basicDown);
 const age = "25"
 const template = `I'm ${age} years old`
 console.log(template);
+
+// test MDN doc
+
+let chat= "chat"
+console.log(chat[2]);
+
+let s_prim = "toto";
+let s_obj = new String(s_prim);
+
+console.log(typeof s_prim);
+console.log(typeof s_obj); 
+
+
+let s1 = "2 + 2";                
+let s2 = new String("2 + 2");    
+console.log(eval(s1));           
+console.log(eval(s2));  
+
+console.log(eval(s2.valueOf()));
