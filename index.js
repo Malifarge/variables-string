@@ -12,3 +12,8 @@ console.log(sentence);
 
 const name = "Thomas"
 console.log(`Nice to meet you ${name}`);
+
+// 04 - String Length
+
+const sentence2 = "I'm a new text !"
+console.log(sentence2.length);
