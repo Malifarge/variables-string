@@ -17,3 +17,9 @@ console.log(`Nice to meet you ${name}`);
 
 const sentence2 = "I'm a new text !"
 console.log(sentence2.length);
+
+// 05 - Replace
+
+let food = "croissant is meh" 
+food = food.replace("meh","so good")
+console.log(food);
